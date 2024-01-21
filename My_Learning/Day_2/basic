@@ -1,0 +1,75 @@
+# Variables:
+In Python, you can assign values to variables using the equal sign (=). Variables are dynamically typed, meaning you don't have to declare their type explicitly.
+
+x = 5      # x is an integer
+y = 3.14   # y is a floating-point number
+name = "John"  # name is a string
+
+# Data Types:
+
+1. Numeric Types:
+int: Integer type (e.g., 5, -3).
+float: Floating-point type (e.g., 3.14, -0.5).
+
+2. Text Type:
+str: String type (e.g., "Hello", 'Python').
+
+3. Boolean Type:
+bool: Boolean type (True or False).
+
+4. Sequence Types:
+list: Ordered and mutable collection.
+tuple: Ordered and immutable collection.
+range: Represents a sequence of numbers.
+
+5. Set Types:
+set: Unordered and mutable collection of unique elements.
+frozenset: Unordered and immutable collection of unique elements.
+
+6. Mapping Type:
+dict: Unordered collection of key-value pairs.
+
+num = 42            # int
+pi = 3.14159        # float
+greeting = "Hello"  # str
+is_python_fun = True  # bool
+
+my_list = [1, 2, 3]       # list
+my_tuple = (4, 5, 6)      # tuple
+my_set = {1, 2, 3}        # set
+my_dict = {'a': 10, 'b': 20}  # dict
+
+# Basic Operations:
+
+1. Arithmetic Operations:
+
+addition = 5 + 3
+subtraction = 7 - 2
+multiplication = 4 * 6
+division = 10 / 2
+
+2. String Operations:
+
+greeting = "Hello"
+name = "John"
+full_greeting = greeting + " " + name
+
+# Control Flow:
+# Conditional Statements:
+
+x = 10
+if x > 0:
+    print("Positive")
+elif x == 0:
+    print("Zero")
+else:
+    print("Negative")
+
+# Loops:
+
+1. for i in range(5):
+    print(i)
+
+2. while x > 0:
+    print(x)
+    x -= 1

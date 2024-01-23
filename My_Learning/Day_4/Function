@@ -1,0 +1,46 @@
+In Python, you can create functions using the **`def`** keyword. Here's an example of how you can define and use functions in Python:
+
+```python
+
+# Function to add two numbers
+def add_numbers(a, b):
+    result = a + b
+    return result
+
+# Function to multiply two numbers
+def multiply_numbers(x, y):
+    result = x * y
+    return result
+
+# Function to greet a person
+def greet(name):
+    return "Hello, " + name + "!"
+
+# Function to check if a number is even
+def is_even(number):
+    return number % 2 == 0
+
+# Example usage of the functions
+sum_result = add_numbers(5, 3)
+print("Sum:", sum_result)
+
+product_result = multiply_numbers(4, 6)
+print("Product:", product_result)
+
+greeting = greet("Alice")
+print(greeting)
+
+number_to_check = 7
+if is_even(number_to_check):
+    print(number_to_check, "is even.")
+else:
+    print(number_to_check, "is odd.")
+
+```
+
+In this example, we defined four functions:
+
+1. **`add_numbers`**: Takes two parameters and returns their sum.
+2. **`multiply_numbers`**: Takes two parameters and returns their product.
+3. **`greet`**: Takes a name as a parameter and returns a greeting.
+4. **`is_even`**: Takes a number as a parameter and returns **`True`** if it's even, **`False`** otherwise.

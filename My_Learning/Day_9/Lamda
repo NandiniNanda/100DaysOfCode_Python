@@ -7,7 +7,6 @@ pythonCopy code
 lambda arguments: expression
 
 ```
-
 Here's an example of a simple lambda function that adds two numbers:
 
 ```python
@@ -17,7 +16,6 @@ result = add(3, 5)
 print(result)  # Output: 8
 
 ```
-
 In this example, the lambda function takes two arguments (**`x`** and **`y`**) and returns their sum. The **`lambda`** keyword is followed by the input parameters, a colon, and the expression that computes the result.
 
 Lambda functions are often used for short, simple operations and are frequently employed as arguments to higher-order functions (functions that take other functions as arguments).
@@ -31,5 +29,4 @@ squared = list(map(lambda x: x**2, numbers))
 print(squared)  # Output: [1, 4, 9, 16, 25]
 
 ```
-
 In this example, the **`lambda`** function squares each element in the **`numbers`** list, and the **`map`** function applies this lambda function to each element in the list
